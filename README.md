@@ -12,11 +12,17 @@ and export structures that take a Clay table from idea to a running outbound cam
 
 | File | What it does |
 |------|-------------|
-| `.agents/skills/clay-table-architect.md` | Design a complete Clay table structure from an ICP and use case. Covers column ordering, naming, data types, ICP filter logic, enrichment waterfall order, conditional column dependencies, and cost estimates. Includes three production templates: outbound prospecting, ABM account enrichment, and champion tracking. |
-| `.agents/skills/clay-enrichment-waterfall.md` | Build or audit multi-provider enrichment waterfalls for email, phone, and firmographic data. Covers provider quality and cost comparisons, waterfall configuration methods, conditional enrichment for cost gating, coverage benchmarks, and the most common waterfall mistakes. |
-| `.agents/skills/clay-ai-column-prompts.md` | Write Clay AI column prompts that produce consistent, usable output at scale. Includes six production prompt templates (pain identification, ICP scoring, subject lines, email openers, LinkedIn notes, account briefs), a quality checklist, debugging guide, and model selection by use case. |
-| `.agents/skills/clay-outbound-export.md` | Prepare Clay tables for export to Apollo, Smartlead, Instantly, and HubSpot. Covers pre-export data quality gates, name cleaning formulas, platform-specific field mappings, merge tag syntax, export column setup, sending volume guidelines, and post-export validation. |
-| `tests/` | Prompt-based tests and validation checklists for all four skills. Run these to verify the skills produce correct output before using in production. |
+| .agents/skills/SKILL.md | Orchestrator and routing logic |
+| .agents/skills/clay-table-architect.md | Design a complete Clay table structure from an ICP and use case. |
+| .agents/skills/clay-enrichment-waterfall.md | Build or audit multi-provider enrichment waterfalls for email, phone, and firmographic data. |
+| .agents/skills/clay-ai-column-prompts.md | Write Clay AI column prompts that produce consistent, usable output at scale. |
+| .agents/skills/clay-outbound-export.md | Prepare Clay tables for export to Apollo, Smartlead, Instantly, and HubSpot. |
+| .agents/skills/clay-enrichment-debugger.md | Diagnose and resolve data match failures in Clay. |
+| .agents/skills/clay-ai-research-agent.md | Build deep custom research agents within Clay prompts. |
+| .agents/skills/clay-credit-optimization.md | Optimize enrichment waterfalls for maximum cost efficiency. |
+| esources/formulas/clayscript-library.md | Library of reusable ClayScript and regex formulas for data cleanup. |
+| esources/benchmarks/enrichment-benchmarks.md | Industry standards for match rates, data freshness, and coverage by vertical. |
+| ECOSYSTEM.md | Cross-repo connectivity map |
 
 ## Prerequisites
 
@@ -80,4 +86,5 @@ If this saves you time, star the repo and follow
 [Forma Nôrden on LinkedIn](https://www.linkedin.com/company/formanorden/).
 
 Built by [Forma Nôrden](https://formanorden.com/) - GTM engineering for B2B companies.
+
 
