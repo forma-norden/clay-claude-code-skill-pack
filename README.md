@@ -12,17 +12,14 @@ and export structures that take a Clay table from idea to a running outbound cam
 
 | File | What it does |
 |------|-------------|
-| .agents/skills/SKILL.md | Orchestrator and routing logic |
-| .agents/skills/clay-table-architect.md | Design a complete Clay table structure from an ICP and use case. |
-| .agents/skills/clay-enrichment-waterfall.md | Build or audit multi-provider enrichment waterfalls for email, phone, and firmographic data. |
-| .agents/skills/clay-ai-column-prompts.md | Write Clay AI column prompts that produce consistent, usable output at scale. |
-| .agents/skills/clay-outbound-export.md | Prepare Clay tables for export to Apollo, Smartlead, Instantly, and HubSpot. |
-| .agents/skills/clay-enrichment-debugger.md | Diagnose and resolve data match failures in Clay. |
-| .agents/skills/clay-ai-research-agent.md | Build deep custom research agents within Clay prompts. |
-| .agents/skills/clay-credit-optimization.md | Optimize enrichment waterfalls for maximum cost efficiency. |
-| esources/formulas/clayscript-library.md | Library of reusable ClayScript and regex formulas for data cleanup. |
-| esources/benchmarks/enrichment-benchmarks.md | Industry standards for match rates, data freshness, and coverage by vertical. |
-| ECOSYSTEM.md | Cross-repo connectivity map |
+| `.agents/skills/SKILL.md` | Orchestrator and routing logic |
+| `.agents/skills/clay-table-architect.md` | Design a complete Clay table structure from an ICP and use case. |
+| `.agents/skills/clay-enrichment-waterfall.md` | Build or audit multi-provider enrichment waterfalls for email, phone, and firmographic data. |
+| `.agents/skills/clay-ai-column-prompts.md` | Write Clay AI column prompts that produce consistent, usable output at scale. |
+| `.agents/skills/clay-outbound-export.md` | Prepare Clay tables for export to Apollo, Smartlead, Instantly, and HubSpot. |
+| `.agents/skills/clay-enrichment-debugger.md` | Diagnose and resolve data match failures in Clay. |
+| `.agents/skills/clay-ai-research-agent.md` | Build deep custom research agents within Clay prompts. |
+| `.agents/skills/clay-credit-optimization.md` | Optimize enrichment waterfalls for maximum cost efficiency. |
 
 ## Prerequisites
 
@@ -86,5 +83,6 @@ If this saves you time, star the repo and follow
 [Forma Nôrden on LinkedIn](https://www.linkedin.com/company/formanorden/).
 
 Built by [Forma Nôrden](https://formanorden.com/) - GTM engineering for B2B companies.
+
 
 
